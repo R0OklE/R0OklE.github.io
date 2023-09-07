@@ -55,54 +55,8 @@ a {
 strong{
     color: #FF0066;
 }
-#body-wrap {
-    position: relative;
-    display: box;
-    display: flex;
-    box-flex: 1;
-    flex: 1 auto;
-    -webkit-box-orient: vertical;
-    flex-direction: column;
-    transition: all .5s;
-}
-#nav.not_index_bg {
-    height: 20rem;
-}
-#nav {
-    position: relative;
-    margin-top: -2rem;
-    width: 100%;
-    background-color: #49b1f5;
-    background-attachment: local;
-    background-position: center;
-    background-size: cover;
-}
-#page_site-info {
-    position: absolute;
-    top: 10rem;
-    width: 100%;
-}
-#site-title {
-    color: #eee;
-    text-align: center;
-    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, .15);
-    line-height: 1.5;
-    font-weight: 700;
-    font-size: 1.3rem;
-    animation: titlescale 1s;
-}
 main {
     display: block;
-}
-
-#content-outer {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -o-box-flex: 1;
-    box-flex: 1;
-    -webkit-flex: 1 auto;
-    -ms-flex: 1 auto;
-    flex: 1 auto;
 }
 h1 {
     font-size: 2em;
@@ -125,13 +79,7 @@ h1 {
     box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06);
     transition: all .3s;
 }
-#page{
-    padding: 20px 44px 44px;
-}
 
-#aside_content {
-    width: 25%;
-}
 #aside_content .card-widget {
     overflow: hidden;
     margin: 10px 0;

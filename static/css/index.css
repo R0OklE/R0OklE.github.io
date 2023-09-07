@@ -225,6 +225,11 @@ img {
 .avatar-img {
     animation: avatar_turn_around 2s linear infinite;
 }
+.avatar-img:hover {
+    width: 200px;
+    height:200px;
+}
+
 #aside_content .card-info .author-info__name {
     font-weight: 500;
     font-size: 1.1rem;
